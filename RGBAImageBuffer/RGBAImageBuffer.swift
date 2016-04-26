@@ -25,7 +25,7 @@ public class RGBAImageBuffer {
     /// Reads a CGImage into an RGB image buffer.
     ///
     /// - Returns: A buffer if raw RGBA data was loaded successfully, **or nil if**: the `CGImage` was nil, it could not create a device RGB color space, it could not allocate enough memory to store the bitmap data buffer, it could not create a bitmap context over that data buffer in order to fill it with data, or it could not get the bitmap data after rendering it to the known memory buffer.
-    init?(image: CGImage?) {
+    public init?(image: CGImage?) {
         // Not throwing NSErrors because we're still not fully clear on the future role of NSError in error handling in Swift. Simply a failable initializer for now.
         guard let image = image else {
             print("CGImage was nil")
@@ -82,15 +82,16 @@ public class RGBAImageBuffer {
     /// Reads a UIImage into an RGB image buffer.
     ///
     /// - Returns: A buffer if all operations completed successfully, **or nil if**: the `CGImage` was nil, it could not create a device RGB color space, it could not allocate enough memory to store the bitmap data buffer, it could not create a bitmap context over that data buffer in order to fill it with data, or it could not get the bitmap data after rendering it to the known memory buffer.
-    convenience init?(UIImage image: UIImage) {
+    public convenience init?(UIImage image: UIImage) {
         self.init(image: image.CGImage)
     }
     
-    func rawIndexForPixelAt(x x: Int, y: Int) -> Int {
+    /// Use this method to transform (x, y) coordinates into an index for the raw pixel data array: `RGBAImageBuffer.rgbaData`.
+    public func rawIndexForPixelAt(x x: Int, y: Int) -> Int {
         return y * self.bytesPerRow + x * 4
     }
     
-    func colorAt(x x: Int, y: Int) -> UIColor? {
+    public func colorAt(x x: Int, y: Int) -> UIColor? {
         let pixelIndex = rawIndexForPixelAt(x: x, y: y)
         
         guard pixelIndex >= 0 else {
@@ -109,7 +110,7 @@ public class RGBAImageBuffer {
         return UIColor(red: r, green: g, blue: b, alpha: a)
     }
     
-    subscript(x: Int, y: Int) -> UIColor? {
+    public subscript(x: Int, y: Int) -> UIColor? {
         return self.colorAt(x: x, y: y)
     }
 }
