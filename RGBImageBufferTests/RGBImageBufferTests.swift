@@ -22,8 +22,17 @@ class RGBImageBufferTests: XCTestCase {
     }
     
     func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        let image = UIImage(named: "hunger")!
+        let buffer = RGBImageBuffer(image: image)
+        
+        for x in 0..<buffer.width {
+            for y in 0..<buffer.height {
+                let rgba = buffer.rgbaAt(x, y)
+                XCTAssertNotNil(rgba)
+                let (r, g, b, a) = rgba!
+                XCTAssertEqual(1, a)
+            }
+        }
     }
     
     func testPerformanceExample() {
