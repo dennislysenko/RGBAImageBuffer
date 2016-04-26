@@ -12,10 +12,10 @@
 		9596598A1CD011BE00E8C6BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 959659881CD011BE00E8C6BC /* Main.storyboard */; };
 		9596598C1CD011BE00E8C6BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9596598B1CD011BE00E8C6BC /* Assets.xcassets */; };
 		9596598F1CD011BE00E8C6BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9596598D1CD011BE00E8C6BC /* LaunchScreen.storyboard */; };
-		959659A71CD011EB00E8C6BC /* RGBAImageBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959659A61CD011EB00E8C6BC /* RGBAImageBuffer.swift */; };
 		95DEB0DC1CD01D7900EE5C26 /* sample_photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 95DEB0D91CD01D7900EE5C26 /* sample_photo.png */; };
 		95DEB0DD1CD01D7900EE5C26 /* sample_photo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95DEB0DA1CD01D7900EE5C26 /* sample_photo@2x.png */; };
 		95DEB0DE1CD01D7900EE5C26 /* sample_photo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95DEB0DB1CD01D7900EE5C26 /* sample_photo@3x.png */; };
+		95DEB0E21CD037A600EE5C26 /* RGBAImageBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DEB0E11CD037A600EE5C26 /* RGBAImageBuffer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,10 +26,10 @@
 		9596598B1CD011BE00E8C6BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9596598E1CD011BE00E8C6BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		959659901CD011BE00E8C6BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		959659A61CD011EB00E8C6BC /* RGBAImageBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBAImageBuffer.swift; sourceTree = "<group>"; };
 		95DEB0D91CD01D7900EE5C26 /* sample_photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample_photo.png; sourceTree = "<group>"; };
 		95DEB0DA1CD01D7900EE5C26 /* sample_photo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sample_photo@2x.png"; sourceTree = "<group>"; };
 		95DEB0DB1CD01D7900EE5C26 /* sample_photo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sample_photo@3x.png"; sourceTree = "<group>"; };
+		95DEB0E11CD037A600EE5C26 /* RGBAImageBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBAImageBuffer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,15 +62,15 @@
 		959659831CD011BE00E8C6BC /* RGBAImageBuffer */ = {
 			isa = PBXGroup;
 			children = (
-				959659A51CD011DA00E8C6BC /* RGBAImageBuffer */,
-				959659A41CD011C400E8C6BC /* Interface */,
+				95DEB0E01CD037A600EE5C26 /* Classes */,
+				959659A41CD011C400E8C6BC /* Demo */,
 				95DEB0DF1CD031B300EE5C26 /* Images */,
 				959659901CD011BE00E8C6BC /* Info.plist */,
 			);
 			path = RGBAImageBuffer;
 			sourceTree = "<group>";
 		};
-		959659A41CD011C400E8C6BC /* Interface */ = {
+		959659A41CD011C400E8C6BC /* Demo */ = {
 			isa = PBXGroup;
 			children = (
 				959659861CD011BE00E8C6BC /* ViewController.swift */,
@@ -79,15 +79,7 @@
 				9596598D1CD011BE00E8C6BC /* LaunchScreen.storyboard */,
 				9596598B1CD011BE00E8C6BC /* Assets.xcassets */,
 			);
-			name = Interface;
-			sourceTree = "<group>";
-		};
-		959659A51CD011DA00E8C6BC /* RGBAImageBuffer */ = {
-			isa = PBXGroup;
-			children = (
-				959659A61CD011EB00E8C6BC /* RGBAImageBuffer.swift */,
-			);
-			name = RGBAImageBuffer;
+			name = Demo;
 			sourceTree = "<group>";
 		};
 		95DEB0DF1CD031B300EE5C26 /* Images */ = {
@@ -98,6 +90,14 @@
 				95DEB0DB1CD01D7900EE5C26 /* sample_photo@3x.png */,
 			);
 			name = Images;
+			sourceTree = "<group>";
+		};
+		95DEB0E01CD037A600EE5C26 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				95DEB0E11CD037A600EE5C26 /* RGBAImageBuffer.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,8 +174,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95DEB0E21CD037A600EE5C26 /* RGBAImageBuffer.swift in Sources */,
 				959659871CD011BE00E8C6BC /* ViewController.swift in Sources */,
-				959659A71CD011EB00E8C6BC /* RGBAImageBuffer.swift in Sources */,
 				959659851CD011BE00E8C6BC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,7 +239,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -278,7 +278,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
