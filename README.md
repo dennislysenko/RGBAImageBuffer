@@ -9,11 +9,13 @@ For now, I don't have the time to upload this as a pod. You can simply copy [RGB
 ```swift
 let image = UIImage(named: "sample_photo")!
 
-let rgbaBuffer = RGBAImageBuffer(image: image)
-
-// when you want to get the color at a specific (x, y) location:
-if let color = rgbBuffer[x, y] {
-  // do something with the color :)
+if let rgbaBuffer = RGBAImageBuffer(image: image.CGImage) {
+  // when you want to get the color at a specific (x, y) location:
+  if let color = rgbaBuffer[x, y] {
+    // do something with the color :)
+  }
+} else {
+  // probably a memory error, or the image was not backed by a CGImage. handle error appropriately
 }
 ```
 
