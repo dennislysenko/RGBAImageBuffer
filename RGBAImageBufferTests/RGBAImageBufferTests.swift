@@ -1,15 +1,15 @@
 //
-//  RGBImageBufferTests.swift
-//  RGBImageBufferTests
+//  RGBAImageBufferTests.swift
+//  RGBAImageBufferTests
 //
 //  Created by Dennis Lysenko on 4/26/16.
 //  Copyright © 2016 Riff Digital. All rights reserved.
 //
 
 import XCTest
-@testable import RGBImageBuffer
+@testable import RGBAImageBuffer
 
-class RGBImageBufferTests: XCTestCase {
+class RGBAImageBufferTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -22,8 +22,8 @@ class RGBImageBufferTests: XCTestCase {
     }
     
     func testExample() {
-        let image = UIImage(named: "hunger")!
-        let buffer = RGBImageBuffer(image: image)
+        let image = UIImage(named: "sample_photo")!
+        let buffer = RGBAImageBuffer(image: image)
         
         for x in 0..<buffer.width {
             for y in 0..<buffer.height {

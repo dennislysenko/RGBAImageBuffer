@@ -12,8 +12,8 @@
 		9596598A1CD011BE00E8C6BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 959659881CD011BE00E8C6BC /* Main.storyboard */; };
 		9596598C1CD011BE00E8C6BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9596598B1CD011BE00E8C6BC /* Assets.xcassets */; };
 		9596598F1CD011BE00E8C6BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9596598D1CD011BE00E8C6BC /* LaunchScreen.storyboard */; };
-		9596599A1CD011BE00E8C6BC /* RGBImageBufferTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959659991CD011BE00E8C6BC /* RGBImageBufferTests.swift */; };
-		959659A71CD011EB00E8C6BC /* RGBImageBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959659A61CD011EB00E8C6BC /* RGBImageBuffer.swift */; };
+		9596599A1CD011BE00E8C6BC /* RGBAImageBufferTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959659991CD011BE00E8C6BC /* RGBAImageBufferTests.swift */; };
+		959659A71CD011EB00E8C6BC /* RGBAImageBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959659A61CD011EB00E8C6BC /* RGBAImageBuffer.swift */; };
 		95DEB0DC1CD01D7900EE5C26 /* sample_photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 95DEB0D91CD01D7900EE5C26 /* sample_photo.png */; };
 		95DEB0DD1CD01D7900EE5C26 /* sample_photo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95DEB0DA1CD01D7900EE5C26 /* sample_photo@2x.png */; };
 		95DEB0DE1CD01D7900EE5C26 /* sample_photo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95DEB0DB1CD01D7900EE5C26 /* sample_photo@3x.png */; };
@@ -25,22 +25,22 @@
 			containerPortal = 959659791CD011BE00E8C6BC /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 959659801CD011BE00E8C6BC;
-			remoteInfo = RGBImageBuffer;
+			remoteInfo = RGBAImageBuffer;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		959659811CD011BE00E8C6BC /* RGBImageBuffer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RGBImageBuffer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		959659811CD011BE00E8C6BC /* RGBAImageBuffer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RGBAImageBuffer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		959659841CD011BE00E8C6BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		959659861CD011BE00E8C6BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		959659891CD011BE00E8C6BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9596598B1CD011BE00E8C6BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9596598E1CD011BE00E8C6BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		959659901CD011BE00E8C6BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		959659951CD011BE00E8C6BC /* RGBImageBufferTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RGBImageBufferTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		959659991CD011BE00E8C6BC /* RGBImageBufferTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBImageBufferTests.swift; sourceTree = "<group>"; };
+		959659951CD011BE00E8C6BC /* RGBAImageBuffer.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RGBAImageBuffer.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		959659991CD011BE00E8C6BC /* RGBAImageBufferTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBAImageBufferTests.swift; sourceTree = "<group>"; };
 		9596599B1CD011BE00E8C6BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		959659A61CD011EB00E8C6BC /* RGBImageBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBImageBuffer.swift; sourceTree = "<group>"; };
+		959659A61CD011EB00E8C6BC /* RGBAImageBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBAImageBuffer.swift; sourceTree = "<group>"; };
 		95DEB0D91CD01D7900EE5C26 /* sample_photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample_photo.png; sourceTree = "<group>"; };
 		95DEB0DA1CD01D7900EE5C26 /* sample_photo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sample_photo@2x.png"; sourceTree = "<group>"; };
 		95DEB0DB1CD01D7900EE5C26 /* sample_photo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sample_photo@3x.png"; sourceTree = "<group>"; };
@@ -67,8 +67,8 @@
 		959659781CD011BE00E8C6BC = {
 			isa = PBXGroup;
 			children = (
-				959659831CD011BE00E8C6BC /* RGBImageBuffer */,
-				959659981CD011BE00E8C6BC /* RGBImageBufferTests */,
+				959659831CD011BE00E8C6BC /* RGBAImageBuffer */,
+				959659981CD011BE00E8C6BC /* RGBAImageBufferTests */,
 				959659821CD011BE00E8C6BC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,29 +76,31 @@
 		959659821CD011BE00E8C6BC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				959659811CD011BE00E8C6BC /* RGBImageBuffer.app */,
-				959659951CD011BE00E8C6BC /* RGBImageBufferTests.xctest */,
+				959659811CD011BE00E8C6BC /* RGBAImageBuffer.app */,
+				959659951CD011BE00E8C6BC /* RGBAImageBuffer.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		959659831CD011BE00E8C6BC /* RGBImageBuffer */ = {
+		959659831CD011BE00E8C6BC /* RGBAImageBuffer */ = {
 			isa = PBXGroup;
 			children = (
-				959659A51CD011DA00E8C6BC /* RGBImageBuffer */,
+				959659A51CD011DA00E8C6BC /* RGBAImageBuffer */,
 				959659A41CD011C400E8C6BC /* Interface */,
 				959659901CD011BE00E8C6BC /* Info.plist */,
 			);
-			path = RGBImageBuffer;
+			name = RGBAImageBuffer;
+			path = RGBAImageBuffer;
 			sourceTree = "<group>";
 		};
-		959659981CD011BE00E8C6BC /* RGBImageBufferTests */ = {
+		959659981CD011BE00E8C6BC /* RGBAImageBufferTests */ = {
 			isa = PBXGroup;
 			children = (
-				959659991CD011BE00E8C6BC /* RGBImageBufferTests.swift */,
+				959659991CD011BE00E8C6BC /* RGBAImageBufferTests.swift */,
 				9596599B1CD011BE00E8C6BC /* Info.plist */,
 			);
-			path = RGBImageBufferTests;
+			name = RGBAImageBufferTests;
+			path = RGBAImageBufferTests;
 			sourceTree = "<group>";
 		};
 		959659A41CD011C400E8C6BC /* Interface */ = {
@@ -116,20 +118,20 @@
 			name = Interface;
 			sourceTree = "<group>";
 		};
-		959659A51CD011DA00E8C6BC /* RGBImageBuffer */ = {
+		959659A51CD011DA00E8C6BC /* RGBAImageBuffer */ = {
 			isa = PBXGroup;
 			children = (
-				959659A61CD011EB00E8C6BC /* RGBImageBuffer.swift */,
+				959659A61CD011EB00E8C6BC /* RGBAImageBuffer.swift */,
 			);
-			name = RGBImageBuffer;
+			name = RGBAImageBuffer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		959659801CD011BE00E8C6BC /* RGBImageBuffer */ = {
+		959659801CD011BE00E8C6BC /* RGBAImageBuffer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9596599E1CD011BE00E8C6BC /* Build configuration list for PBXNativeTarget "RGBImageBuffer" */;
+			buildConfigurationList = 9596599E1CD011BE00E8C6BC /* Build configuration list for PBXNativeTarget "RGBAImageBuffer" */;
 			buildPhases = (
 				9596597D1CD011BE00E8C6BC /* Sources */,
 				9596597E1CD011BE00E8C6BC /* Frameworks */,
@@ -139,14 +141,14 @@
 			);
 			dependencies = (
 			);
-			name = RGBImageBuffer;
-			productName = RGBImageBuffer;
-			productReference = 959659811CD011BE00E8C6BC /* RGBImageBuffer.app */;
+			name = RGBAImageBuffer;
+			productName = RGBAImageBuffer;
+			productReference = 959659811CD011BE00E8C6BC /* RGBAImageBuffer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		959659941CD011BE00E8C6BC /* RGBImageBufferTests */ = {
+		959659941CD011BE00E8C6BC /* RGBAImageBufferTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 959659A11CD011BE00E8C6BC /* Build configuration list for PBXNativeTarget "RGBImageBufferTests" */;
+			buildConfigurationList = 959659A11CD011BE00E8C6BC /* Build configuration list for PBXNativeTarget "RGBAImageBufferTests" */;
 			buildPhases = (
 				959659911CD011BE00E8C6BC /* Sources */,
 				959659921CD011BE00E8C6BC /* Frameworks */,
@@ -157,9 +159,9 @@
 			dependencies = (
 				959659971CD011BE00E8C6BC /* PBXTargetDependency */,
 			);
-			name = RGBImageBufferTests;
-			productName = RGBImageBufferTests;
-			productReference = 959659951CD011BE00E8C6BC /* RGBImageBufferTests.xctest */;
+			name = RGBAImageBufferTests;
+			productName = RGBAImageBufferTests;
+			productReference = 959659951CD011BE00E8C6BC /* RGBAImageBuffer.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -181,7 +183,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9596597C1CD011BE00E8C6BC /* Build configuration list for PBXProject "RGBImageBuffer" */;
+			buildConfigurationList = 9596597C1CD011BE00E8C6BC /* Build configuration list for PBXProject "RGBAImageBuffer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -194,8 +196,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				959659801CD011BE00E8C6BC /* RGBImageBuffer */,
-				959659941CD011BE00E8C6BC /* RGBImageBufferTests */,
+				959659801CD011BE00E8C6BC /* RGBAImageBuffer */,
+				959659941CD011BE00E8C6BC /* RGBAImageBufferTests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,7 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				959659871CD011BE00E8C6BC /* ViewController.swift in Sources */,
-				959659A71CD011EB00E8C6BC /* RGBImageBuffer.swift in Sources */,
+				959659A71CD011EB00E8C6BC /* RGBAImageBuffer.swift in Sources */,
 				959659851CD011BE00E8C6BC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,7 +240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9596599A1CD011BE00E8C6BC /* RGBImageBufferTests.swift in Sources */,
+				9596599A1CD011BE00E8C6BC /* RGBAImageBufferTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,7 +249,7 @@
 /* Begin PBXTargetDependency section */
 		959659971CD011BE00E8C6BC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 959659801CD011BE00E8C6BC /* RGBImageBuffer */;
+			target = 959659801CD011BE00E8C6BC /* RGBAImageBuffer */;
 			targetProxy = 959659961CD011BE00E8C6BC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -359,10 +361,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = RGBImageBuffer/Info.plist;
+				INFOPLIST_FILE = RGBAImageBuffer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dennislysenko.RGBImageBuffer;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dennislysenko.RGBAImageBuffer;
+				PRODUCT_NAME = RGBAImageBuffer;
 			};
 			name = Debug;
 		};
@@ -370,10 +372,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = RGBImageBuffer/Info.plist;
+				INFOPLIST_FILE = RGBAImageBuffer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dennislysenko.RGBImageBuffer;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dennislysenko.RGBAImageBuffer;
+				PRODUCT_NAME = RGBAImageBuffer;
 			};
 			name = Release;
 		};
@@ -381,11 +383,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = RGBImageBufferTests/Info.plist;
+				INFOPLIST_FILE = RGBAImageBufferTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dennislysenko.RGBImageBufferTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RGBImageBuffer.app/RGBImageBuffer";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dennislysenko.RGBAImageBufferTests;
+				PRODUCT_NAME = RGBAImageBuffer;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RGBAImageBuffer.app/RGBAImageBuffer";
 			};
 			name = Debug;
 		};
@@ -393,18 +395,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = RGBImageBufferTests/Info.plist;
+				INFOPLIST_FILE = RGBAImageBufferTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dennislysenko.RGBImageBufferTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RGBImageBuffer.app/RGBImageBuffer";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dennislysenko.RGBAImageBufferTests;
+				PRODUCT_NAME = RGBAImageBuffer;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RGBAImageBuffer.app/RGBAImageBuffer";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9596597C1CD011BE00E8C6BC /* Build configuration list for PBXProject "RGBImageBuffer" */ = {
+		9596597C1CD011BE00E8C6BC /* Build configuration list for PBXProject "RGBAImageBuffer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9596599C1CD011BE00E8C6BC /* Debug */,
@@ -413,7 +415,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9596599E1CD011BE00E8C6BC /* Build configuration list for PBXNativeTarget "RGBImageBuffer" */ = {
+		9596599E1CD011BE00E8C6BC /* Build configuration list for PBXNativeTarget "RGBAImageBuffer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9596599F1CD011BE00E8C6BC /* Debug */,
@@ -422,7 +424,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		959659A11CD011BE00E8C6BC /* Build configuration list for PBXNativeTarget "RGBImageBufferTests" */ = {
+		959659A11CD011BE00E8C6BC /* Build configuration list for PBXNativeTarget "RGBAImageBufferTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				959659A21CD011BE00E8C6BC /* Debug */,

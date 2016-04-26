@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  RGBImageBuffer
+//  RGBAImageBuffer
 //
 //  Created by Dennis Lysenko on 4/26/16.
 //  Copyright © 2016 Riff Digital. All rights reserved.
@@ -11,12 +11,12 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var imageView: UIImageView!
     let image = UIImage(named: "sample_photo")!
-    var rgbBuffer: RGBImageBuffer!
+    var rgbBuffer: RGBAImageBuffer!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.rgbBuffer = RGBImageBuffer(image: self.image)
+        self.rgbBuffer = RGBAImageBuffer(image: self.image.CGImage)
         self.imageView.image = self.image
         self.imageView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(ViewController.didTapImage(_:))))
         self.imageView.userInteractionEnabled = true
