@@ -22,12 +22,16 @@ class ViewController: UIViewController {
         
         // Create the buffer: it's that easy.
         // NB: if your image is big, you will want to do this in the background.
-        self.rgbaBuffer = RGBAImageBuffer(image: image.CGImage)
-        
-        // Make the image view color the background of our whole view when you move around on it to demonstrate that the RGBAImageBuffer works
-        self.imageView.addGestureRecognizer(UIPanGestureRecognizer(target: self, action: #selector(ViewController.extractColorFromImage(_:))))
-        self.imageView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(ViewController.extractColorFromImage(_:))))
-        self.imageView.userInteractionEnabled = true
+        if let rgbaBuffer = RGBAImageBuffer(image: image.CGImage) {
+            self.rgbaBuffer = rgbaBuffer
+            
+            // Make the image view color the background of our whole view when you move around on it to demonstrate that the RGBAImageBuffer works
+            self.imageView.addGestureRecognizer(UIPanGestureRecognizer(target: self, action: #selector(ViewController.extractColorFromImage(_:))))
+            self.imageView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(ViewController.extractColorFromImage(_:))))
+            self.imageView.userInteractionEnabled = true
+        } else {
+            print("Could not create RGBA image buffer. Could be an out of memory error. See documentation on RGBAImageBuffer.init(image:) for more possibilities")
+        }
     }
     
     func extractColorFromImage(gesture: UIGestureRecognizer) {
