@@ -1,8 +1,8 @@
 # RGBAImageBuffer
 
-Access raw RGB data from a UIImage painlessly in Swift. Based heavily on [this MIT-licensed snippet](https://gist.github.com/PaulSolt/739132).
+Get the UIColor of any pixel in a UIImage or CGImage relatively painlessly in Swift. Based heavily on [this MIT-licensed snippet](https://gist.github.com/PaulSolt/739132).
 
-# usage
+## usage
 
 For now, I don't have the time to upload this as a pod. You can simply copy [RGBAImageBuffer.swift](../master/RGBAImageBuffer/RGBAImageBuffer.swift) into your project and use it with a UIImage:
 
@@ -19,11 +19,11 @@ if let rgbaBuffer = RGBAImageBuffer(image: image.CGImage) {
 }
 ```
 
-# why?
+## why?
 
 Because normally you have to interface with raw memory to accomplish this, and no one wants to do that. This makes it a (relatively) safe nullable subscript, rather than (relatively) unsafe pointer math.
 
-# danger! retina devices
+## danger! retina devices
 
 When using UIImage, remember that the UIImage's `size` property is **scaled and therefore will NOT match the width/height of the RGB pixel buffer.**
 
