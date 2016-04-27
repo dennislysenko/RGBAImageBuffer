@@ -4,7 +4,7 @@ Get the UIColor of any pixel in a UIImage or CGImage relatively painlessly in Sw
 
 ## installation
 
-CocoaPods: `pod 'RGBAImageBuffer'`
+CocoaPods: `pod 'RGBAImageBuffer', '~> 1.0.0'`
 
 You can also simply copy [RGBAImageBuffer.swift](../master/RGBAImageBuffer/RGBAImageBuffer.swift) into your project.
 
